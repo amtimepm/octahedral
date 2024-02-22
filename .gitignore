@@ -6,10 +6,12 @@
 *.lo
 *.o
 *.obj
+*.ado
 
 # Precompiled Headers
 *.gch
 *.pch
+*.sh
 
 # Compiled Dynamic libraries
 *.so
@@ -19,6 +21,7 @@
 # Fortran module files
 *.mod
 *.smod
+*INSTALL
 
 # Compiled Static libraries
 *.lai
@@ -30,3 +33,5 @@
 *.exe
 *.out
 *.app
+*.dll
+*.mui
