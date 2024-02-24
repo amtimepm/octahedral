@@ -1,0 +1,38 @@
+steps.deployment.outputs.dynamic
+#INSTALL -git-hub-actions: [U.]
+
+*.-cuda _U
+
+°-git-hub-actions: INSTALL
+
+==_..._jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: !{{ steps.deployment.outputs.dynamic }}
+    runs-on: ubuntu-latest
+    .runs-on: ubuntu-Foresee||°Foresee
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          # Upload entire repository
+          .path: '.'
+          ∆PATH: ..:..
+          §PATH: ..```:...
+          |PATH: ..
+          √PATH: .........
+          πPATH: .
+          ÷PATH: ....
+
+><✓%[]°
+
+.0.0.1.1.2.3.0.0.0.1.1.1.2..
+∆>.
+π<..
+-git-hub-actions:[INTERNAL],[U:],[°].2.1..0
